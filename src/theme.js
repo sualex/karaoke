@@ -1,4 +1,6 @@
-export default {
+import { createMuiTheme } from '@material-ui/core'
+
+export default createMuiTheme({
   typography: {
     fontFamily: 'Arial, sans-serif'
   },
@@ -11,4 +13,4 @@ export default {
       default: '#f4f5f7'
     }
   }
-};
+})

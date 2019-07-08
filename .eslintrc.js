@@ -9,7 +9,8 @@ module.exports = {
   parserOptions: {
     sourceType: 'module',
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
+      legacyDecorators: true
     }
   },
   settings: {
@@ -37,6 +38,7 @@ module.exports = {
     'prettier'
   ],
   rules: {
+    "prettier/prettier": ["error"],
     'no-console': 'off',
     'react/no-typos': 'error',
     'import/order': [
